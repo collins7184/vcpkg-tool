@@ -1,0 +1,4 @@
+{
+  "image": "ghcr.io/msclock/features/vcpkg:2",
+  "features": {}
+}
