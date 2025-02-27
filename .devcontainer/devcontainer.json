@@ -1,4 +1,23 @@
 {
   "image": "ghcr.io/msclock/features/vcpkg:2",
   "features": {}
+   // Add the IDs of extensions you want installed when the container is created.
+"extensions": [
+"ms-vscode.cpptools",
+"ms-vscode.cmake-tools"
+"ms-azuretools.vscode-docker",      // Tools for working with Dockerfiles
+"ms-vscode.cpptools-extension-pack" // Collection of C and C++ extensions, including CMake
+        ],
+
+        // Use 'forwardPorts' to make a list of ports inside the container available locally.
 }
+
+ // Add the IDs of extensions you want installed when the container is created.
+"extensions": [
+"ms-vscode.cpptools",
+"ms-vscode.cmake-tools"
+"ms-azuretools.vscode-docker",      // Tools for working with Dockerfiles
+"ms-vscode.cpptools-extension-pack" // Collection of C and C++ extensions, including CMake
+        ],
+
+        // Use 'forwardPorts' to make a list of ports inside the container available locally.
